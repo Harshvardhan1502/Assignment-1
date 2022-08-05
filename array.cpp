@@ -1,8 +1,8 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
-    clrscr()
+   
     int a[100][100];
     int i,j,m,n;
     cout<<"\nEnter size of array";
@@ -15,7 +15,7 @@ void main()
         cin>>a[i][j];
     }
     }
-    cout<<"\nDisplaying array";
+    cout<<"\nDisplaying array\n";
     for(i=0;i<m;i++)
     {
         for(j=0;j<n;j++)
@@ -23,7 +23,7 @@ void main()
         cout<<endl;
     }
 
-cout<<"displaying diagonal elements"
+cout<<"displaying diagonal elements";
 for(i=0;i<m;i++)
 {
     for(j=0;j<n;j++)
@@ -32,5 +32,7 @@ for(i=0;i<m;i++)
 }
 
 
-
+return 0;
 }
+
+
